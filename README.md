@@ -5,23 +5,23 @@
 placeholder
 
 # Project Description
-- Create a react app that allows users to find local restraunts based on preferences and leave a rating for them.
+- Create a react app that allows users to find local restaurants based on preferences and leave a rating for them.
 
 ## App Functionality
-- Users will be able to find local restraunts sorted by rating and preferences. Users will be able to select the restraunts to view and leave reviews.
+- Users will be able to find local restaurants sorted by rating and preferences. Users will be able to select the restaurants to view and leave reviews.
 
 ## Deliverables
 
 ### MVP Criteria
 - Home Page
-- Restaurants Page (Popular) (Restraunts sorted by rating)
+- Restaurants Page (Popular) (restaurants sorted by rating)
 - Individual Restaurant Page (With ratings and comments)
 - Working comments/ratings
 - Working Database
 
 ### Post-MVP Plans
 - User accounts
-- Recommended Page (Sorted for user)
+- Recommended Page (sorted for user)
 - Ability to sort restraunts
 - Location features
 
