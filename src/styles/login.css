@@ -1,0 +1,15 @@
+.loginbox {
+    border: 2px solid;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    margin-top: 200px;
+    
+}
+
+
+.createacc {
+    border: 2px solid;
+    width: 200px;
+    margin: auto;
+}
