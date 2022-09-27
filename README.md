@@ -31,7 +31,8 @@ placeholder
 ## Technologies Used
 - Express
 - React
-- 
+- postgres
+
 # Project Planning
 
 ## Project Schedule
@@ -39,8 +40,8 @@ placeholder
 |------------|---------------------------------------|
 | Thu. 09/22 | Project Planning |
 |    Sun. 09/25        |        Have project skeleton completed                              |
-|Tue. 09/27|                                      |
-|Thu. 09/29|                                       |
+|Tue. 09/27|                    Get front and back-ends working together. Get Postgres database working                  |
+|Thu. 09/29|                                    Get more pages, more styling, more endpoints, and more functionality working   |
 |Sun. 10/02|                  Have MVP Criteria Completed. Deploy Project.                     |
 |Tue. 10/04|         Submit completed project. Project presentations                              |
 
