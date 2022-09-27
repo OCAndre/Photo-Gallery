@@ -8,8 +8,8 @@ function Navbar() {
     <div className="navbar" >
         
         <Link to='/'> <img className="imgtag" src={Logo} />  </Link>
-        <Link className="rest" to='/restaurants'> Popular Restaurants </Link>
-        <Link className="login" to='/user'> Login/Create Account </Link>
+        <Link className="rest" to='/Topten'> Top Ten Restaurants </Link>
+        <Link className="login" to='/Login'> Login/Create Account </Link>
            
         </div>
         
