@@ -6,7 +6,9 @@ const { Op } = require('sequelize')
 // FIND ALL
 restaurants.get('/', async (req, res) => {
     try {
-        const foundRestaurants = await Restaurant.findAll()
+        const foundRestaurants = await Restaurant.findAll({
+            order: [['rating', 'DSC']]
+        })
         res.status(200).json(foundRestaurants)
     } catch (error) {
         res.status(500).json(error)
