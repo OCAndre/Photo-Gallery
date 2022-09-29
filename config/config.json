@@ -1,0 +1,9 @@
+{
+  "Restaurant-gallery": {
+    "username": "xqhmlyhwojigxz",
+    "password": "156c97bb99627a143654dee76e9461dc3de493aeb7c2bf913dd1c37cf1db727d",
+    "database": "df7r20hoaot20u",
+    "host": "ec2-44-210-36-247.compute-1.amazonaws.com",
+    "dialect": "postgres"
+  }
+}
