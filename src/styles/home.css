@@ -1,9 +1,8 @@
+.container {
+    overflow: auto;
 
-.list {
-    border: 2px solid;
-    position: absolute;
-    height: 800px;
-    width: 500px;
+  
+
 }
 
 .map {
@@ -12,3 +11,44 @@
     
 
 }
+
+.mapimg {
+    margin-left: 50px;
+    width: 1380px;
+    margin-left: 500px;
+    height: 800px;
+}
+
+.li {
+    border: 1px solid green;
+    height: 198px;
+
+}
+
+
+.img1 {
+    height:80px;
+    width:80px;
+    
+}
+
+.img2 {
+    height:80px;
+    width:80px;
+
+
+}
+
+.img3 {
+    height:80px;
+    width:100px;
+
+
+}
+
+.link-btn {
+    background: none;
+    color: black;
+    text-decoration: underline;
+  }
+  

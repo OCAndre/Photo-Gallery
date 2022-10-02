@@ -10,6 +10,7 @@ function Navbar() {
         <Link to='/'> <img className="imgtag" src={Logo} />  </Link>
         <Link className="rest" to='/Topten'> Top Ten Restaurants </Link>
         <Link className="login" to='/Login'> Login/Create Account </Link>
+        {/* <Link className="show" to='/Show'> Show Page </Link> */}
            
         </div>
         
