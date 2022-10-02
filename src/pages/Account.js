@@ -1,12 +1,18 @@
 import React, { useState } from 'react'
-import { useHref, useNavigate } from 'react-router-dom';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+
 import '../styles/account.css'
 
 
 
 
-function account() {
+
+
+
+
+function Account() {
+    const navigate = useNavigate();
+
   return (
     <div className='form1'>
     <form>
@@ -17,13 +23,13 @@ function account() {
         <label for='password'>Password</label>
         <input type='password' placeholder='yourpassword' id='password' name='password' />
     </form>
-    <button  className='button2'>Create Account</button>
+    <button  className='button2' onClick={() => navigate('/')}>Create Account</button>
     
     </div>
   )
 }
 
-export default account
+export default Account
 
 
 
