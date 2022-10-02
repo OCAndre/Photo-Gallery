@@ -2,7 +2,7 @@
 
 ## Project link
 
-# https://restaurant-gallery.herokuapp.com/
+### https://restaurant-gallery.herokuapp.com/
 
 ## Repository link
 
