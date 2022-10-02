@@ -1,35 +1,31 @@
-import React from 'react'
+import React, { useState } from "react";
+import { useNavigate } from 'react-router-dom';
 
+import '../styles/logreg.css'
 
+export const Login = (props) => {
+    const [email, setEmail] = useState('');
+    const [pass, setPass] = useState('');
 
-import '../styles/login.css'
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        
+    }
+    const navigate = useNavigate();
 
-
-
-
-
-
-
-function Login() {
-    
-  return (
-    <div>
-        <div className='loginbox' >
-          <form>
-        <label for='username'>Username</label>
-        <input type='Username' placeholder='yourusername' id='username' name='username' />
-        <label for='password'>Password</label>
-        <input type='password' placeholder='yourpassword' id='password' name='password' />
-          </form>
+    return (
+        <div className="auth-form-container">
+            <h2>Login</h2>
+            <form className="login-form" onSubmit={handleSubmit}>
+                <label htmlFor="email">Email</label>
+                <input value={email} onChange={(e) => setEmail(e.target.value)}type="email" placeholder="youremail@gmail.com" id="email" name="email" />
+                <label htmlFor="password">Password</label>
+                <input value={pass} onChange={(e) => setPass(e.target.value)} type="password" placeholder="********" id="password" name="password" />
+                <button onClick={() => navigate('/')} type="submit">Log In</button>
+            </form>
+            <button className="link-btn" onClick={() => navigate('/Account')}>Don't have an account? Register here.</button>
         </div>
-
-        <a href='/Account'>
-          Dont have an account? Click here to register!
-        </a>
-        
-        
-    </div>
-  )
+    )
 }
 
 export default Login
