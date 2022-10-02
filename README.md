@@ -2,12 +2,12 @@
 
 ## Project link
 
-https://restaurant-gallery.herokuapp.com/
+# https://restaurant-gallery.herokuapp.com/
 
 ## Repository link
 
-Front-End: https://github.com/OCAndre/Restaurant-Gallery
-Back-End: https://github.com/ZachADavis/Restaurant-Gallery-API
+### Front-End: https://github.com/OCAndre/Restaurant-Gallery
+### Back-End: https://github.com/ZachADavis/Restaurant-Gallery-API
 
 # Project Description
 - Create a react app that allows users to find local restaurants based on preferences and leave a rating for them.
