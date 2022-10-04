@@ -2,7 +2,12 @@
 
 ## Project link
 
-placeholder
+### https://restaurant-gallery.herokuapp.com/
+
+## Repository link
+
+### Front-End: https://github.com/OCAndre/Restaurant-Gallery
+### Back-End: https://github.com/ZachADavis/Restaurant-Gallery-API
 
 # Project Description
 - Create a react app that allows users to find local restaurants based on preferences and leave a rating for them.
@@ -23,9 +28,9 @@ placeholder
 - User accounts
 - Recommended Page (sorted for user)
 - Ability to sort restraunts
-- Location features
 
 ### Stretch: 
+- Location features used to fill database with nearby restaurants
 - Add more features and improvements
 
 ## Technologies Used
@@ -48,8 +53,8 @@ placeholder
 ## Front-End Wireframe
 placeholder
 
-## Database Diagram
-placeholder
+## ERD
+![plot](./planning/ERD.png)
 
 ## Routes Table (MVP & Post-MVP)
 | METHOD       | PATH                                 | PURPOSE  |
@@ -57,12 +62,12 @@ placeholder
 | GET | / | HOME PAGE  |
 | GET | /restaurants | Popular Restaurants PAGE  |
 | GET | /restaurants/recommended | Recommended Restaurants PAGE (Post-MVP) |
-| POST | /restaurants | New Restaurant Page (Necessary with location?) |
-| GET | /restaurants/new | New Restaurant Page (Necessary with location?) |
+| POST | /restaurants | New Restaurant Page  |
+| GET | /restaurants/new | New Restaurant Page  |
 | GET | /restaurants/:id | Restaurant Show PAGE  |
-| Put | /restaurant/:id |  Edit Restaurant Page (Do we need this?) |
-| GET | /restaurant/:id/edit |  Edit Restaurant Page (Do we need this?) |
-| Delete | /restaurants/:id |  Delete Restaurant Page (Do we need this?)|
+| Put | /restaurant/:id |  Edit Restaurant Page  |
+| GET | /restaurant/:id/edit |  Edit Restaurant Page  |
+| Delete | /restaurants/:id |  Delete Restaurant Page |
 | Post | /restaurants/:id/review |  Post Review |
 | Put | /restaurants/:id/review |  Edit Review |
 | GET | /restaurants/:id/review/edit |  Edit Review Page |
