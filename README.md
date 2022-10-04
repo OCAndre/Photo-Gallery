@@ -95,9 +95,7 @@
 # Outstanding Issues
 
 ## Bugs
-
--
-
+- Front and back end communication
 ## Unfinished functionality
-
--
+- Post-MVP plans
+- location features
