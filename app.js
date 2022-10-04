@@ -5,10 +5,10 @@ const { Sequelize } = require('sequelize')
 
 // CONFIGURATION
 require('dotenv').config()
-const PORT = process.env.PORT
+const PORT = process.env.SERVER_PORT
 const app = express()
-Sequelize.connect(process.env.PG_URI, {useNewUrlParser: true, useUnifiedTopology: true}, 
-  () => { console.log('connected to postgresql: ', process.env.PG_URI) }
+Sequelize.connect(process.env.DB_URI, {useNewUrlParser: true, useUnifiedTopology: true}, 
+  () => { console.log('connected to postgresql: ', process.env.DB_URI) }
 )
 
 // MIDDLEWARE
@@ -45,6 +45,6 @@ app.get('*', (req, res) => {
 })
 
 // LISTEN
-app.listen(PORT, () => {
-  console.log('Live on port', PORT);
+app.listen(SERVER_PORT, () => {
+  console.log('Live on port', SERVER_PORT);
 })
