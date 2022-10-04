@@ -24,7 +24,7 @@ function Home() {
                             <Col>
                                 <h5 style={{ fontWeight: "bold" }}>McDonalds</h5>
                                 <p>Rating</p>
-                                <button className="link-btn" onClick={() => navigate('/show')}>Rate This Restaurant</button>
+                                <button className="link-btn1" onClick={() => navigate('/show')}>Rate This Restaurant</button>
                             </Col>
                         </Row>
                     </Col>
@@ -36,7 +36,7 @@ function Home() {
                             <Col>
                                 <h5 style={{ fontWeight: "bold" }}>Chick-Fil-A</h5>
                                 <p>Rating</p>
-                                <button className="link-btn" onClick={() => navigate('/show')}>Rate This Restaurant</button>
+                                <button className="link-btn1" onClick={() => navigate('/show')}>Rate This Restaurant</button>
                             </Col>
                         </Row>
                     </Col>
@@ -48,7 +48,7 @@ function Home() {
                             <Col xs=".5">
                                 <h5 style={{ fontWeight: "bold" }}>Taco Bell</h5>
                                 <p>Rating</p>
-                                <button className="link-btn" onClick={() => navigate('/show')}>Rate This Restaurant</button>
+                                <button className="link-btn1" onClick={() => navigate('/show')}>Rate This Restaurant</button>
                             </Col>
                         </Row>
                     </Col>
